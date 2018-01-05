@@ -1,0 +1,40 @@
+/* http://j4n.co/blog/Creating-your-own-css-grid-system */
+
+.grid-container {
+  width : 100%;
+  max-width : 900;
+  border: 1px orange dashed;
+}
+.row:before,
+.row:after {
+  content:"";
+  display: table ;
+  clear:both;
+  position: relative;
+}
+[class*='col-'] {
+  float: left;
+  background-color: #FFDCDC;
+}
+.col-1 {
+  height: 100px;
+  margin-top: 1%;
+  width: 40%;
+  background-color: #999;
+}
+.col-2 {
+  height: 50px;
+  width: 40%;
+  background-color: #cbcbcb;
+}
+.col-3 {
+  width: 80%;
+  height: 500px;
+  background-image: url('lab-assets/choco-pizza.png');
+  background-size: contain;
+}
+.margin {
+  width: 10%;
+  background-color: #FFF;
+  background-image: none;
+}
