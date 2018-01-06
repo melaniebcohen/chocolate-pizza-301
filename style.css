@@ -1,8 +1,7 @@
 /* http://j4n.co/blog/Creating-your-own-css-grid-system */
 
 .grid-container {
-  width : 100%;
-  max-width : 900;
+  width : 960px;
   border: 1px orange dashed;
 }
 .row:before,
@@ -14,27 +13,65 @@
 }
 [class*='col-'] {
   float: left;
-  background-color: #FFDCDC;
 }
 .col-1 {
   height: 100px;
   margin-top: 1%;
-  width: 40%;
+  width: 350px;
   background-color: #999;
 }
 .col-2 {
   height: 50px;
-  width: 40%;
+  width: 350px;
   background-color: #cbcbcb;
 }
 .col-3 {
-  width: 80%;
-  height: 500px;
+  width: 700px;
   background-image: url('lab-assets/choco-pizza.png');
-  background-size: contain;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  height: 470px;
+}
+.col-4 {
+  margin-top: 25px;
+  width: 700px;
+}
+.col-4 p {
+  text-indent: 20px;
+  margin-bottom: 25px;
+  font-family: Garamond;
+  color: rgb(107, 107, 107)
+}
+.col-5 {
+  width: 700px;
+  background-image: url('lab-assets/list-bg.png');
+  background-size: 100%;
+  background-repeat: no-repeat;
+  margin-left: 130px;
+  margin-bottom: 25px;
+}
+.inner-col-5-1 {
+  float: left;
+  height: 225px;
+  width: 348px;
+}
+.inner-col-5-2 {
+  float: right;
+  height: 225px;
+  width: 348px;
+}
+.col-6 {
+  height: 150px;
+  width: 700px;
+  background-color: #999;
+}
+.col-7 {
+  height: 150px;
+  width: 700px;
+  background-color: #888;
 }
 .margin {
-  width: 10%;
+  width: 130px;
   background-color: #FFF;
   background-image: none;
 }
