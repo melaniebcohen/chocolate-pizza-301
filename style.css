@@ -16,9 +16,24 @@
 }
 .col-1 {
   height: 100px;
-  margin-top: 1%;
   width: 350px;
-  background-color: #999;
+}
+header .logo {
+  float: left;
+  margin-top: 25px;
+}
+.col-1-text {
+  float: left;
+  margin-top: 25px;
+}
+header li {
+  float: right;
+  display: inline;
+  padding-top: 30px;
+  margin-left: 2px;
+}
+header li:nth-child(2) {
+  margin-left: 9px;
 }
 .col-2 {
   height: 50px;
@@ -42,6 +57,9 @@
   font-family: Garamond;
   color: rgb(107, 107, 107)
 }
+.col-4 p:last-child {
+  margin-bottom: 0px;
+}
 .col-5 {
   width: 700px;
   background-image: url('lab-assets/list-bg.png');
@@ -60,10 +78,32 @@
   height: 225px;
   width: 348px;
 }
+fieldset {
+  display: block;
+}
 .col-6 {
-  height: 150px;
+  height: 90px;
   width: 700px;
-  background-color: #999;
+}
+.col-6-image {
+  margin-top: 10px;
+  width: 70px;
+}
+.col-6-text {
+  margin-top: 10px;
+  border: 1px orange dashed;
+  width: 485px;
+}
+.col-6-share {
+  margin-top: 10px;
+  width: 140px;
+}
+button {
+  width: 140px;
+  height: 40px;
+  border: none;
+  background-color: #b06c38;
+  color: #FFF;
 }
 .col-7 {
   height: 150px;
