@@ -22,6 +22,15 @@ header .logo {
   float: left;
   margin-top: 25px;
 }
+h1 {
+  font-family: Yellowtail;
+  font-size: 40px;
+}
+h2 {
+  font-family: Abel;
+  font-size: 10px;
+  color: #6d6d6d;
+}
 .col-1-text {
   float: left;
   margin-top: 25px;
@@ -34,6 +43,10 @@ header li {
 }
 header li:nth-child(2) {
   margin-left: 9px;
+}
+#chocolate-pizza {
+  font-family: 'Anton';
+  font-size: 36px;
 }
 .col-pg-break {
   padding-top: 2px;
