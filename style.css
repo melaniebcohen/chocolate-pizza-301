@@ -133,7 +133,7 @@ button {
 }
 .col-8 {
   width: 325px;
-  height: 150px;
+  height: 50px;
 }
 .col-8-top-box {
   height: 75px;
@@ -151,10 +151,12 @@ footer img {
 }
 .col-9 {
   width: 700px;
+  height: 50px;
   margin: 0 auto;
 }
 .footer-text {
   margin: 0 auto;
+  text-align: center;
 }
 .margin {
   width: 130px;
