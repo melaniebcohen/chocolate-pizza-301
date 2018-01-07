@@ -22,6 +22,15 @@ header .logo {
   float: left;
   margin-top: 25px;
 }
+h1 {
+  font-family: Yellowtail;
+  font-size: 40px;
+}
+h2 {
+  font-family: Abel;
+  font-size: 10px;
+  color: #6d6d6d;
+}
 .col-1-text {
   float: left;
   margin-top: 25px;
@@ -34,6 +43,18 @@ header li {
 }
 header li:nth-child(2) {
   margin-left: 9px;
+}
+#chocolate-pizza {
+  font-family: 'Anton';
+  font-size: 36px;
+}
+.col-pg-break {
+  padding-top: 2px;
+  height: 8px;
+  border: 0px;
+  width: 700px;
+  background: url("lab-assets/hr-11.png");
+  /* using asset from https://codepen.io/ibrahimjabbari/pen/ozinB?editors=1100 */
 }
 .col-2 {
   height: 50px;
@@ -109,6 +130,33 @@ button {
   height: 150px;
   width: 700px;
   background-color: #888;
+}
+.col-8 {
+  width: 325px;
+  height: 50px;
+}
+.col-8-top-box {
+  height: 75px;
+  width: 323px;
+  margin-top: 15px;
+  border-top: 1px solid rgb(196, 196, 196);
+}
+.img {
+  width: 50px;
+  margin: 0 auto;
+  align-content: center;
+}
+footer img {
+  padding: 0px 10px 0px 10px;
+}
+.col-9 {
+  width: 700px;
+  height: 50px;
+  margin: 0 auto;
+}
+.footer-text {
+  margin: 0 auto;
+  text-align: center;
 }
 .margin {
   width: 130px;
