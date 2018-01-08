@@ -2,6 +2,7 @@
 
 .grid-container {
   width : 960px;
+  margin: 0 auto;
 }
 .row:before,
 .row:after {
