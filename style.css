@@ -2,7 +2,6 @@
 
 .grid-container {
   width : 960px;
-  border: 1px orange dashed;
 }
 .row:before,
 .row:after {
@@ -24,12 +23,13 @@ header .logo {
 }
 h1 {
   font-family: Yellowtail;
-  font-size: 40px;
+  font-size: 35px;
 }
 h2 {
   font-family: Abel;
   font-size: 10px;
   color: #6d6d6d;
+  margin-left: 6px;
 }
 .col-1-text {
   float: left;
@@ -46,7 +46,13 @@ header li:nth-child(2) {
 }
 #chocolate-pizza {
   font-family: 'Anton';
-  font-size: 36px;
+  font-size: 29px;
+}
+.col-2-p {
+  font-family: Abel;
+  font-size: 9px;
+  margin-top: 3px;
+  color: rgb(186, 186, 186);
 }
 .col-pg-break {
   padding-top: 2px;
@@ -59,7 +65,18 @@ header li:nth-child(2) {
 .col-2 {
   height: 50px;
   width: 350px;
-  background-color: #cbcbcb;
+  margin-top: 45px;
+  margin-bottom: 10px;
+}
+.col-2 img, .print {
+  float: right;
+}
+.col-2 img {
+  padding-top: 33px;
+}
+.print {
+  margin-left: 2px;
+  padding-top: 30px;
 }
 .col-3 {
   width: 700px;
@@ -84,10 +101,11 @@ header li:nth-child(2) {
 .col-5 {
   width: 700px;
   background-image: url('lab-assets/list-bg.png');
-  background-size: 100%;
+  background-size: 98%;
   background-repeat: no-repeat;
   margin-left: 130px;
   margin-bottom: 25px;
+  position: relative;
 }
 .inner-col-5-1 {
   float: left;
@@ -101,22 +119,53 @@ header li:nth-child(2) {
 }
 fieldset {
   display: block;
+  font-family: 'Comic Sans MS';
+  font-weight: lighter;
+  color: rgb(127, 127, 127);
+  margin-top: 5px;
+}
+label {
+  padding-left: 3px
+}
+.first-column {
+  margin-left: 12%;
+}
+.first-column, .second-column {
+  margin-top: 8%;
+}
+#chopped {
+  margin-left: 22px;
+}
+input[type=checkbox]:checked + label {
+  text-decoration: line-through;
 }
 .col-6 {
   height: 90px;
   width: 700px;
+  margin-bottom: 25px;
 }
 .col-6-image {
   margin-top: 10px;
   width: 70px;
 }
 .col-6-text {
-  margin-top: 10px;
-  border: 1px orange dashed;
+  margin-top: 15px;
   width: 485px;
+  font-family: Garamond;
+  color: rgb(107, 107, 107)
+}
+.col-6-text p {
+  padding-left: 15px;
+  padding-right: 20px;
+  padding-top: 5px;
+  font-size: 15px;
+}
+.col-6-text p:first-child {
+  font-size: 18px;
+  font-weight: bolder;
 }
 .col-6-share {
-  margin-top: 10px;
+  margin-top: 20px;
   width: 140px;
 }
 button {
@@ -132,6 +181,7 @@ button {
   background-color: #888;
 }
 .col-8 {
+  margin-top: 10px;
   width: 325px;
   height: 50px;
 }
@@ -139,7 +189,7 @@ button {
   height: 75px;
   width: 323px;
   margin-top: 15px;
-  border-top: 1px solid rgb(196, 196, 196);
+  border-top: 0.25px solid #c9c9c9;
 }
 .img {
   width: 50px;
@@ -147,6 +197,7 @@ button {
   align-content: center;
 }
 footer img {
+  margin-top: 10px;
   padding: 0px 10px 0px 10px;
 }
 .col-9 {
@@ -157,6 +208,12 @@ footer img {
 .footer-text {
   margin: 0 auto;
   text-align: center;
+  font-family: Georgia;
+  font-size: 10px;
+  color: #c9c9c9;
+}
+.footer-text:last-child {
+  margin-top: 5px;
 }
 .margin {
   width: 130px;
